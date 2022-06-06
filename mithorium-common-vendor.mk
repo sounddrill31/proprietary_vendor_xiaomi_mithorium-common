@@ -185,6 +185,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mithorium-common/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/xiaomi/mithorium-common/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/xiaomi/mithorium-common/proprietary/vendor/bin/dspservice:$(TARGET_COPY_OUT_VENDOR)/bin/dspservice \
+    vendor/xiaomi/mithorium-common/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
     vendor/xiaomi/mithorium-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/xiaomi/mithorium-common/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/xiaomi/mithorium-common/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
@@ -196,6 +197,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mithorium-common/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
     vendor/xiaomi/mithorium-common/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
     vendor/xiaomi/mithorium-common/proprietary/vendor/bin/imsrcsd:$(TARGET_COPY_OUT_VENDOR)/bin/imsrcsd \
+    vendor/xiaomi/mithorium-common/proprietary/vendor/bin/init.qti.fm.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.fm.sh \
     vendor/xiaomi/mithorium-common/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/xiaomi/mithorium-common/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/xiaomi/mithorium-common/proprietary/vendor/bin/mlid:$(TARGET_COPY_OUT_VENDOR)/bin/mlid \
@@ -260,6 +262,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mithorium-common/proprietary/vendor/etc/init/imsdatadaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdatadaemon.rc \
     vendor/xiaomi/mithorium-common/proprietary/vendor/etc/init/imsqmidaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsqmidaemon.rc \
     vendor/xiaomi/mithorium-common/proprietary/vendor/etc/init/imsrcsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsrcsd.rc \
+    vendor/xiaomi/mithorium-common/proprietary/vendor/etc/init/init.qti.fm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.fm.rc \
     vendor/xiaomi/mithorium-common/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/xiaomi/mithorium-common/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
     vendor/xiaomi/mithorium-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
